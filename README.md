@@ -1,35 +1,43 @@
-# Deckloud Desktop
+# Deckloud Support and Desktop Releases
 
-Native macOS client for Nextcloud Deck.
+Deckloud is a native client for Nextcloud Deck on Mac and iPhone.
 
-This repository is the public release channel for Deckloud Desktop and the main support desk for customer-reported issues.
+This repository is the public support desk for Deckloud. It handles customer issues for both Mac and iPhone, plus shared sync, login, billing, server compatibility, and data-consistency cases.
 
-## Download
+It also hosts signed and notarized Mac release builds.
 
-Install the latest signed and notarized build from [Releases](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest).
+## Mac Download
+
+Install the latest Mac build from [Releases](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest).
 
 - Apple Silicon Macs: download `stable-macos-arm64-Deckloud.dmg`
 - Intel Macs: download `stable-macos-x64-Deckloud.dmg`
-- Older builds: see the full [release history](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases)
+- Older Mac builds: see the full [release history](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases)
+
+iPhone releases are distributed through the App Store. Use this repository for iPhone support and bug reports.
 
 ## Support
 
-Use [GitHub Issues](https://github.com/hweihwang/nextcloud-deck-desktop-releases/issues) for:
+Open a [GitHub Issue](https://github.com/hweihwang/nextcloud-deck-desktop-releases/issues) for:
 
-- install or update problems
-- sync, login, permissions, or data-consistency issues
-- Nextcloud / Deck server compatibility questions
-- desktop bugs, regressions, and feature requests
+- Mac install, update, launch, or signing problems
+- iPhone app bugs, regressions, crashes, or App Store build issues
+- sync, offline, conflict, or data-consistency problems
+- login, session, authentication, or permissions failures
+- Nextcloud server or Deck app compatibility questions
+- Pro, purchase, restore, and entitlement problems
+- feature requests for Mac, iPhone, or shared Deckloud behavior
 - customer support cases that need tracking
-
-If the issue also affects iPhone or shared Deckloud behavior, file it here and mark the affected platform clearly.
 
 ## What to include
 
 Clear reports move faster. Include:
 
 - Deckloud version
-- macOS version and Mac type, Apple Silicon or Intel
+- platform: Mac, iPhone, or both
+- macOS or iOS version
+- Mac type, Apple Silicon or Intel, when relevant
+- iPhone model, when relevant
 - Nextcloud version and Deck app version
 - expected result, actual result, and steps to reproduce
 - screenshots or logs, with secrets and private board data removed
@@ -38,6 +46,6 @@ Do not post passwords, app tokens, recovery codes, server secrets, private board
 
 ## Priority
 
-Highest priority goes to data integrity, sync correctness, login/authentication, install/update failures, paid customer blockers, and enterprise deployment issues.
+Highest priority goes to data integrity, sync correctness, login/authentication, crashes, install/update failures, paid customer blockers, and enterprise deployment issues.
 
 Low-detail reports may be held until the missing information is provided.
