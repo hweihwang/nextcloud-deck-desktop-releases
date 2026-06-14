@@ -31,7 +31,7 @@ Open a [GitHub Issue](https://github.com/hweihwang/nextcloud-deck-desktop-releas
 
 ## What to include
 
-Clear reports move faster. Include:
+If available, include:
 
 - Deckloud version
 - platform: Mac, iPhone, or both
@@ -43,9 +43,3 @@ Clear reports move faster. Include:
 - screenshots or logs, with secrets and private board data removed
 
 Do not post passwords, app tokens, recovery codes, server secrets, private board contents, or customer data. If a case needs sensitive detail, open a short public issue first; we will move the private part to a safer channel.
-
-## Priority
-
-Highest priority goes to data integrity, sync correctness, login/authentication, crashes, install/update failures, paid customer blockers, and enterprise deployment issues.
-
-Low-detail reports may be held until the missing information is provided.
