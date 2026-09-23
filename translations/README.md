@@ -1,32 +1,30 @@
-# Deckloud Translations
+# Translate Deckloud
 
-These files hold every piece of text in Deckloud for Mac, iPhone, iPad, and Android. There is one file per language, named by its locale code, for example `da.json` for Danish or `pt_BR.json` for Brazilian Portuguese.
+Here is all of the text in Deckloud for iPhone, iPad, Mac, Windows, and Linux. Each language has one file, named by its language code: `da.json` is Danish, `de.json` is German, and `pt_BR.json` is Brazilian Portuguese.
 
-Each line maps the English text to the text the app shows in that language:
+Each line pairs the English text with what the app shows in your language:
 
 ```json
 "Deleted cards": "Slettede kort",
 ```
 
-Some strings come from the official Nextcloud Deck translations. Most were machine translated, so many can be improved. Corrections from people who use the app in their language are welcome.
+A few strings come from the official Nextcloud Deck translations. Most were machine translated, so they can sound stiff or simply wrong. A fix from someone who uses the app in their own language makes Deckloud better for everyone who speaks it. Thank you for helping.
 
-## How to contribute
+## How to send a fix
 
-1. Open the file for your language and select the edit (pencil) button. GitHub creates a fork for you.
+1. Open the file for your language, then select the pencil icon to edit it. GitHub makes a copy for you.
 2. Change the text on the right side of the colon.
-3. Select **Propose changes** and open a pull request. Mention the language and any context that helps review.
+3. Select **Commit changes**, then open a pull request.
 
-You can fix a single string or the whole file. Small pull requests are fine.
+One fixed word is welcome, and so is a whole file. If you'd rather not use pull requests, [open an issue](https://github.com/hweihwang/nextcloud-deck-desktop-releases/issues/new) with the English text, the current translation, and your suggestion.
 
-If you prefer not to use pull requests, open an [issue](https://github.com/hweihwang/nextcloud-deck-desktop-releases/issues) with the English text, the current translation, and your suggestion.
+## Keep these as they are
 
-## Rules
+- **The English text on the left.** Deckloud uses it to find your translation.
+- **Placeholders** such as `{{count}}` and `{{name}}`. You can move them within the sentence.
+- **Product names** such as Deckloud, Nextcloud, Nextcloud Deck, App Store, and Google Play.
+- **The JSON format.** Each line ends with a comma except the last one, and a quote inside the text needs a backslash: `\"`.
 
-- Keep the English text on the left side unchanged. The app uses it to find the translation.
-- Keep placeholders like `{{count}}`, `{{name}}`, and `{0}` exactly as written. You can move them within the sentence.
-- Keep product names unchanged, for example Deckloud, Nextcloud, Nextcloud Deck, App Store, and Google Play.
-- Keep the file valid JSON: each line ends with a comma except the last one, and quotes inside text need a backslash (`\"`).
-
-Merged changes ship in the next Deckloud release. The files are refreshed from the app on each release, so new strings appear here in English or as machine translations until someone reviews them.
+Your fix ships in the next Deckloud release. These files are refreshed on each release, so new strings appear here as soon as they are in the app.
 
 By opening a pull request, you agree that Deckloud may use, change, and distribute your translation in its apps.

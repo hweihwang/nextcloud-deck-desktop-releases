@@ -1,49 +1,58 @@
-# Deckloud Support and Desktop Releases
+# Deckloud: Nextcloud Deck app for iPhone, iPad, Mac, Windows, and Linux
 
-Deckloud is a native client for Nextcloud Deck on Mac and iPhone.
+Deckloud is an independent app for [Nextcloud Deck](https://apps.nextcloud.com/apps/deck). It opens the kanban boards you already have on your own Nextcloud server, keeps working when you are offline, and syncs straight to your server with nothing in between.
 
-This repository is the public support desk for Deckloud. It handles customer issues for both Mac and iPhone, plus shared sync, login, billing, server compatibility, and data-consistency cases.
+This is where you download the desktop app, report a bug, ask for a feature, or help translate. Learn more at [deckloud.com](https://deckloud.com).
 
-It also hosts signed and notarized Mac release builds.
+## Download
 
-## Mac Download
+| Device | Download | Needs |
+| --- | --- | --- |
+| iPhone and iPad | [App Store](https://apps.apple.com/app/deckloud/id6756962555?pt=128286558&ct=github-readme&mt=8) | iOS or iPadOS 16.4 |
+| Mac | [Deckloud.dmg](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/stable-macos-arm64-Deckloud.dmg) | macOS 14, Apple Silicon |
+| Windows | [Deckloud-Setup.zip](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/win-x64-Deckloud-Setup.zip) | Windows 11 |
+| Linux x64 | [Deckloud-Setup.tar.gz](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/linux-x64-Deckloud-Setup.tar.gz) | Ubuntu 24.04 or similar |
+| Linux arm64 | [Deckloud-Setup.tar.gz](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/linux-arm64-Deckloud-Setup.tar.gz) | Ubuntu 24.04 or similar |
 
-Install the latest Mac build from [Releases](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest).
+On a Mac, you can also install with Homebrew:
 
-- Apple Silicon Macs: download `stable-macos-arm64-Deckloud.dmg`
-- Intel Macs: download `stable-macos-x64-Deckloud.dmg`
-- Older Mac builds: see the full [release history](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases)
+```sh
+brew install --cask hweihwang/nextcloud-deck/deck-desktop
+```
 
-iPhone releases are distributed through the App Store. Use this repository for iPhone support and bug reports.
+A few things to know:
 
-## Support
+- The Mac app is signed and notarized by Apple, and it updates itself.
+- On Windows, extract the zip and run the installer inside. Windows may show a SmartScreen warning because the installer is not code signed. Select **More info**, then **Run anyway**. Windows on ARM runs this build through emulation.
+- On Linux, Deckloud needs GTK 3, WebKitGTK 4.1, and a keyring such as GNOME Keyring to store your login safely.
+- Windows and Linux do not update themselves yet. Download the new installer from [Releases](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases) to update.
 
-Open a [GitHub Issue](https://github.com/hweihwang/nextcloud-deck-desktop-releases/issues) for:
+## What Deckloud does
 
-- Mac install, update, launch, or signing problems
-- iPhone app bugs, regressions, crashes, or App Store build issues
-- sync, offline, conflict, or data-consistency problems
-- login, session, authentication, or permissions failures
-- Nextcloud server or Deck app compatibility questions
-- Pro, purchase, restore, and entitlement problems
-- feature requests for Mac, iPhone, or shared Deckloud behavior
-- customer support cases that need tracking
+- Shows your Deck boards, cards, comments, and attachments in a fast native app.
+- Keeps your changes while you are offline and syncs them when you are back online.
+- Plans dated cards on a Gantt timeline next to your kanban columns.
+- Collects everything due, overdue, assigned to you, or mentioning you in one Today list.
+- Searches every board at once, including labels, assignees, and card text.
+- Links files from Nextcloud Files to a card.
 
-## Translations
+You need a Nextcloud server with the Deck app, version 1.6 or later. If you don't have a server, Deckloud can create a free Deckloud Cloud workspace for you.
 
-Deckloud's app text for every language is in [`translations/`](translations). To fix a translation, edit the file for your language and open a pull request. See the [translation guide](translations/README.md).
+## Free and Pro
 
-## What to include
+Deckloud is free on every device, and your boards stay fully usable without paying. Deckloud Pro is a one-time purchase with no subscription. It removes the limits on Quick Capture, reminders, Focus sessions, and widgets, and one purchase covers iPhone, iPad, and desktop.
 
-If available, include:
+## Report a bug or ask for a feature
 
-- Deckloud version
-- platform: Mac, iPhone, or both
-- macOS or iOS version
-- Mac type, Apple Silicon or Intel, when relevant
-- iPhone model, when relevant
-- Nextcloud version and Deck app version
-- expected result, actual result, and steps to reproduce
-- screenshots or logs, with secrets and private board data removed
+[Open an issue](https://github.com/hweihwang/nextcloud-deck-desktop-releases/issues/new). Every report is read, and small details often make the fix much faster. If you can, include:
 
-Do not post passwords, app tokens, recovery codes, server secrets, private board contents, or customer data. If a case needs sensitive detail, open a short public issue first; we will move the private part to a safer channel.
+- your Deckloud version and device, such as iPhone, iPad, Mac, Windows, or Linux, with its OS version
+- your Nextcloud version and Deck version
+- what you expected, what happened instead, and the steps that lead there
+- a screenshot, with private board content hidden
+
+Please never post passwords, app tokens, or private board content. If your case needs private details, open a short issue first, and we will move to a private channel.
+
+## Help translate Deckloud
+
+Deckloud speaks more than 90 languages, and most of them were machine translated. If you use Deckloud in your language and something reads wrong, you can fix it in a few minutes. See the [translation guide](translations/README.md).
