@@ -14,7 +14,7 @@ A helpful report includes:
 - what an attacker could do, and what they would need first
 - the steps to reproduce it
 
-You will get a reply within a few days. Once the fix ships, the report can be published, with credit to you if you want it.
+Once a fix ships, the report can be published, with credit to you if you want it.
 
 ## What counts
 

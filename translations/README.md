@@ -25,6 +25,6 @@ One fixed word is welcome, and so is a whole file. If you'd rather not use pull 
 - **Product names** such as Deckloud, Nextcloud, Nextcloud Deck, App Store, and Google Play.
 - **The JSON format.** Each line ends with a comma except the last one, and a quote inside the text needs a backslash: `\"`.
 
-Your fix ships in the next Deckloud release. These files are refreshed on each release, so new strings appear here as soon as they are in the app.
+Merged fixes are included in a later Deckloud release. These files are refreshed with each release, so new strings show up here too.
 
 By opening a pull request, you agree that Deckloud may use, change, and distribute your translation in its apps.

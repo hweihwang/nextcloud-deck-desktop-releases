@@ -48,9 +48,9 @@ Deckloud is free on every device, and your boards stay fully usable without payi
 
 ## Report a bug or ask for a feature
 
-[Open an issue](https://github.com/hweihwang/nextcloud-deck-desktop-releases/issues/new/choose) and pick **Bug report** or **Feature idea**. Every report is read. The form asks for the few details that make a fix faster, and **Settings → Diagnostics** in the app exports a support file with private data removed.
+[Open an issue](https://github.com/hweihwang/nextcloud-deck-desktop-releases/issues/new/choose) and pick **Bug report** or **Feature idea**. The form asks for the few details that make a fix faster, and **Settings → Diagnostics** in the app exports a support file with private data removed.
 
-Please never post passwords, app tokens, or private board content. If your case needs private details, open a short issue first, and we will move to a private channel. Report security problems [privately](SECURITY.md).
+Please never post passwords, app tokens, or private board content. If your case needs private details, say so in a short issue, and the conversation can continue privately. Report security problems [privately](SECURITY.md).
 
 ## Help translate Deckloud
 
