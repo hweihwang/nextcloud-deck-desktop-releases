@@ -1,0 +1,27 @@
+name: Feature idea
+description: Suggest something that would make Deckloud better for you.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the situation and what gets in your way today. This helps more than a finished design.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: Optional. Your idea for how Deckloud could solve it.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Where would you use it?
+      multiple: true
+      options:
+        - iPhone
+        - iPad
+        - Mac
+        - Windows
+        - Linux

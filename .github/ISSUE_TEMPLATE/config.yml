@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security problem
+    url: https://github.com/hweihwang/nextcloud-deck-desktop-releases/security/advisories/new
+    about: Report vulnerabilities privately, never in a public issue.
+  - name: Board template idea
+    url: https://github.com/hweihwang/deckloud-templates/issues/new?template=template-idea.yml
+    about: Suggest a new Nextcloud Deck board template.
+  - name: Translation fix
+    url: https://github.com/hweihwang/nextcloud-deck-desktop-releases/blob/main/translations/README.md
+    about: Fix wording in your language with a small pull request.

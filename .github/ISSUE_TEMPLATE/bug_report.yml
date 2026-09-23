@@ -1,0 +1,60 @@
+name: Bug report
+description: Something in Deckloud doesn't work the way it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. Please never post passwords, app tokens, or private board content here.
+  - type: input
+    id: version
+    attributes:
+      label: Deckloud version
+      description: On iPhone and iPad, see Settings → About. On desktop, see Settings → Updates.
+      placeholder: "0.8.13"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Where does it happen?
+      multiple: true
+      options:
+        - iPhone
+        - iPad
+        - Mac
+        - Windows
+        - Linux
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: System version
+      placeholder: "iOS 26.1, macOS 26.6, Windows 11, Ubuntu 24.04"
+  - type: input
+    id: server
+    attributes:
+      label: Nextcloud and Deck version
+      description: Leave empty if you use Deckloud Cloud.
+      placeholder: "Nextcloud 32.0.1, Deck 1.16.2"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Tell us what you expected and what you saw instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a board
+        2. Move a card to another list
+        3. ...
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or diagnostics
+      description: Drag files here. Settings → Diagnostics exports a file with private data removed, which often makes the fix much faster.
