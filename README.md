@@ -29,6 +29,10 @@ Open a [GitHub Issue](https://github.com/hweihwang/nextcloud-deck-desktop-releas
 - feature requests for Mac, iPhone, or shared Deckloud behavior
 - customer support cases that need tracking
 
+## Translations
+
+Deckloud's app text for every language is in [`translations/`](translations). To fix a translation, edit the file for your language and open a pull request. See the [translation guide](translations/README.md).
+
 ## What to include
 
 If available, include:
