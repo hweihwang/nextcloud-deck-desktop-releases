@@ -16,7 +16,7 @@ A few strings come from the official Nextcloud Deck translations. Most were mach
 2. Change the text on the right side of the colon.
 3. Select **Commit changes**, then open a pull request.
 
-One fixed word is welcome, and so is a whole file. If you'd rather not use pull requests, [open an issue](https://github.com/hweihwang/nextcloud-deck-desktop-releases/issues/new) with the English text, the current translation, and your suggestion.
+One fixed word is welcome, and so is a whole file. If you'd rather not use GitHub, email [support@deckloud.com](mailto:support@deckloud.com) with the English text, the current translation, and your suggestion. A screenshot of where it appears helps too.
 
 ## Keep these as they are
 
