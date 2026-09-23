@@ -38,6 +38,10 @@ A few things to know:
 
 You need a Nextcloud server with the Deck app, version 1.6 or later. If you don't have a server, Deckloud can create a free Deckloud Cloud workspace for you.
 
+## Board templates
+
+Start a new board from one of 20 free templates, such as a sprint board, bug triage, GTD weekly review, or content calendar. Choose **Start from template** when you create a board. Browse them at [deckloud.com/nextcloud-deck-templates](https://deckloud.com/nextcloud-deck-templates/), or see the files and suggest your own in [deckloud-templates](https://github.com/hweihwang/deckloud-templates).
+
 ## Free and Pro
 
 Deckloud is free on every device, and your boards stay fully usable without paying. Deckloud Pro is a one-time purchase with no subscription. It removes the limits on Quick Capture, reminders, Focus sessions, and widgets, and one purchase covers iPhone, iPad, and desktop.
