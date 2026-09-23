@@ -4,7 +4,7 @@ Deckloud stores your Nextcloud login and syncs your boards, so security problems
 
 ## Report a vulnerability
 
-[Report it privately here](https://github.com/hweihwang/nextcloud-deck-desktop-releases/security/advisories/new). Only you and the Deckloud maintainer can see the report.
+[Report it privately here](https://github.com/hweihwang/nextcloud-deck-desktop-releases/security/advisories/new). Only you and the Deckloud maintainer can see the report. Without a GitHub account, email [support@deckloud.com](mailto:support@deckloud.com) instead.
 
 Please do not open a public issue for a security problem. Other people could misuse it before a fix ships.
 

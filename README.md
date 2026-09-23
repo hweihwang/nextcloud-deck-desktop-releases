@@ -2,7 +2,7 @@
 
 Deckloud is an independent app for [Nextcloud Deck](https://apps.nextcloud.com/apps/deck). It opens the kanban boards you already have on your own Nextcloud server, keeps working when you are offline, and syncs straight to your server with nothing in between.
 
-This is where you download the desktop app, report a bug, ask for a feature, or help translate. Learn more at [deckloud.com](https://deckloud.com).
+This is where you download the desktop app, get help, report a bug, ask for a feature, or help translate. Learn more at [deckloud.com](https://deckloud.com).
 
 ## Download
 
@@ -46,11 +46,13 @@ Start a new board from one of 20 free templates, such as a sprint board, bug tri
 
 Deckloud is free on every device, and your boards stay fully usable without paying. Deckloud Pro is a one-time purchase with no subscription. It removes the limits on Quick Capture, reminders, Focus sessions, and widgets, and one purchase covers iPhone, iPad, and desktop.
 
-## Report a bug or ask for a feature
+## Get help, report a bug, or ask for a feature
 
-[Open an issue](https://github.com/hweihwang/nextcloud-deck-desktop-releases/issues/new/choose) and pick **Bug report** or **Feature idea**. The form asks for the few details that make a fix faster, and **Settings → Diagnostics** in the app exports a support file with private data removed.
+No GitHub account? Email [support@deckloud.com](mailto:support@deckloud.com) in your own words, or find quick answers at [deckloud.com/support](https://deckloud.com/support/).
 
-Please never post passwords, app tokens, or private board content. If your case needs private details, say so in a short issue, and the conversation can continue privately. Report security problems [privately](SECURITY.md).
+On GitHub, [open an issue](https://github.com/hweihwang/nextcloud-deck-desktop-releases/issues/new/choose) and pick **Bug report** or **Feature idea**. The form asks for the few details that make a fix faster, and **Settings → Diagnostics** in the app exports a support file with private data removed.
+
+Please never post passwords, app tokens, or private board content. If your case needs private details, email them instead. Report security problems [privately](SECURITY.md).
 
 ## Help translate Deckloud
 
