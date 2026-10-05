@@ -119,14 +119,23 @@ Edits wait in a queue while you are offline and sync when you reconnect. You can
 
 | Capture in seconds | Everything due in one list | Boards made for touch |
 | :---: | :---: | :---: |
-| <img src=".github/assets/phone-capture.png" width="240" alt="Deckloud Quick Capture with the board and section already picked for the new card"> | <img src=".github/assets/phone-today.png" width="240" alt="Deckloud Today list with overdue cards, cards due today, and the next cards from several boards"> | <img src=".github/assets/phone-board.png" width="240" alt="Deckloud on iPhone showing the Product launch board with a collapsed Backlog and cards in progress"> |
-| Quick Capture adds a card without opening a board. Share a page from Safari or any app, and Deckloud keeps the full link. | Today collects overdue cards, cards due today, and cards assigned to you or mentioning you, from every board. | Collapse sections you are not working on, drag cards with haptic feedback, and see checklist progress on every card. |
+| <img src=".github/assets/phone-capture.png" width="240" alt="Deckloud Quick Capture on iPhone: the title “Record the launch podcast tomorrow 3pm #marketing @mia” fills in the due date, the Marketing label, and Mia Chen"> | <img src=".github/assets/phone-today.png" width="240" alt="Deckloud Today screen with recent boards, cards due today, overdue cards in one row, and a week card of finished cards"> | <img src=".github/assets/phone-board.png" width="240" alt="Deckloud on iPhone showing the In progress column of the Product launch board, one column per page"> |
+| Quick Capture opens above the keyboard. Type “tomorrow 5pm”, #label, or @name in the title, and Return saves the card and keeps the sheet open for the next one. Share a page from Safari or any app, and Deckloud keeps the full link. | Today starts with your recent boards, then cards due today, overdue cards in one row, and cards assigned to you or mentioning you. A week card counts what you finished. | On iPhone a board shows one column per page: swipe between columns or tap one in the strip under the title. **List** in the board's … menu keeps the vertical layout. |
 
-Reminders fire at the due time or an hour before, and Home Screen widgets show what is due without opening the app. On iPad, boards open in real kanban columns.
+Reminders fire at the due time, an hour before, or a day before, and Home Screen widgets show what is due without opening the app. On iPad, boards open in real kanban columns.
 
 <p align="center">
   <img src=".github/assets/ipad-kanban.png" alt="Deckloud on iPad in landscape, showing a Nextcloud Deck board in kanban columns">
 </p>
+
+### Repeat cards, turn lists into cards, and see who has what
+
+These arrived in iPhone and iPad 1.3.12 and desktop 0.8.21.
+
+| Repeating cards | Smart Capture | Team |
+| :---: | :---: | :---: |
+| <img src=".github/assets/phone-repeat.png" width="240" alt="Deckloud Repeat sheet on a card: presets from every day to 1 week after it is done, with Every week on Thursday selected"> | <img src=".github/assets/phone-smart.png" width="240" alt="Deckloud Smart Capture: four pasted lines become four cards to review, with a due date, a label, and a person picked up from the text"> | <img src=".github/assets/phone-team.png" width="240" alt="Deckloud Team view with open cards per person and a weekly report you can share"> |
+| A card comes back on a schedule or a set time after it is done. The schedule is saved as a small file in your Nextcloud, so all your devices share it and each card is created once. Nextcloud Deck has no recurring cards of its own ([nextcloud/deck#480](https://github.com/nextcloud/deck/issues/480)). [How it works](https://deckloud.com/nextcloud-deck-recurring-cards/) | Paste a list, or dictate or photograph one on supported devices, and Deckloud turns it into several cards that you review before they are created. Dates, #labels, and @names in each line fill in the details. | See each person's open cards across your boards, with overdue and due-soon counts, and share a weekly report as Markdown or CSV. |
 
 ### And the details you expect
 
@@ -136,6 +145,7 @@ Reminders fire at the due time or an hour before, and Home Screen widgets show w
 - **Shared boards**, with board presence and Nextcloud Teams when your server supports them.
 - **Several accounts.** Switch between Nextcloud servers or accounts.
 - **Focus timer** for a timed session on a card.
+- **Organization licenses.** One yearly license gives everyone who uses Deckloud on your organization's Nextcloud Pro on every platform, with nothing to install on the server. [Deckloud for Organizations](https://deckloud.com/business/)
 - **20 board templates**, such as a sprint board, bug triage, a GTD weekly review, or a content calendar. Choose **Start from template** when you create a board. [Browse the templates](https://deckloud.com/nextcloud-deck-templates/) or suggest one in [deckloud-templates](https://github.com/hweihwang/deckloud-templates).
 - **More than 90 languages**, including right-to-left layouts. The app follows your device language, or you can pick one in the app.
 
@@ -156,6 +166,9 @@ Your boards are never behind a paywall. Pro is a one-time purchase with no subsc
 | Boards, cards, comments, attachments, and labels | Yes | Yes |
 | Today, Gantt timeline, search, and offline sync | Yes | Yes |
 | Quick Capture and Share Sheet saves | 5 | Unlimited |
+| Smart Capture | Counts as one of the 5 captures, up to 5 cards | Up to 20 cards at a time |
+| Repeating cards | 1 | Up to 100 |
+| Team view | Your own cards and the team totals | Everyone's cards and the team's weekly report |
 | Active reminders | 1 | Unlimited |
 | Focus sessions | 1 | Unlimited |
 | Accounts | 2 | Unlimited |
