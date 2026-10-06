@@ -13,7 +13,7 @@
   <a href="https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest"><img alt="Latest desktop release" src="https://img.shields.io/github/v/release/hweihwang/nextcloud-deck-desktop-releases?label=desktop&logo=github"></a>
   <a href="https://apps.apple.com/app/deckloud/id6756962555?pt=128286558&amp;ct=github-readme&amp;mt=8"><img alt="App Store version" src="https://img.shields.io/itunes/v/6756962555?label=App%20Store&logo=apple"></a>
   <img alt="Platforms: iPhone, iPad, Mac, Windows, Linux" src="https://img.shields.io/badge/platforms-iPhone%20%7C%20iPad%20%7C%20Mac%20%7C%20Windows%20%7C%20Linux-informational">
-  <img alt="More than 90 languages" src="https://img.shields.io/badge/languages-90%2B-informational">
+  <img alt="More than 70 languages" src="https://img.shields.io/badge/languages-70%2B-informational">
 </p>
 
 <p align="center">
@@ -147,7 +147,7 @@ These arrived in iPhone and iPad 1.3.12 and desktop 0.8.21.
 - **Focus timer** for a timed session on a card.
 - **Organization licenses.** One yearly license gives everyone who uses Deckloud on your organization's Nextcloud Pro on every platform, with nothing to install on the server. [Deckloud for Organizations](https://deckloud.com/business/)
 - **20 board templates**, such as a sprint board, bug triage, a GTD weekly review, or a content calendar. Choose **Start from template** when you create a board. [Browse the templates](https://deckloud.com/nextcloud-deck-templates/) or suggest one in [deckloud-templates](https://github.com/hweihwang/deckloud-templates).
-- **More than 90 languages**, including right-to-left layouts. The app follows your device language, or you can pick one in the app.
+- **More than 70 languages**, including right-to-left layouts. The app follows your device language, or you can pick one in the app.
 
 ## Requirements
 
@@ -212,7 +212,7 @@ See what changed in each version in the [release notes](https://deckloud.com/cha
 
 ## Help translate Deckloud
 
-Deckloud speaks more than 90 languages. A few strings come from the official Nextcloud Deck translations, and most of the rest were machine translated, so some read stiff or wrong. A fix from someone who uses the app in their language helps everyone who speaks it.
+Deckloud speaks more than 70 languages. A few strings come from the official Nextcloud Deck translations, and most of the rest were machine translated, so some read stiff or wrong. A fix from someone who uses the app in their language helps everyone who speaks it.
 
 The [`translations/`](translations/) folder holds one JSON file per language, named by its language code, such as `de.json`, `pt_BR.json`, or `sr@latin.json`. The files cover the text of the iPhone, iPad, Mac, Windows, and Linux apps. English is the source, so it has no file. Each line pairs the English text with what the app shows in your language:
 
