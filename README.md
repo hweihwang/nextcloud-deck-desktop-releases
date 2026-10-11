@@ -201,10 +201,10 @@ Read the details in [Security and privacy](https://deckloud.com/security/) and t
 | --- | --- |
 | iPhone and iPad | Through the App Store |
 | Mac | Deckloud updates itself |
-| Windows | Download the latest `.zip` from [Releases](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest) and run the installer again |
-| Linux | Download the latest `.tar.gz` from [Releases](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest) and run the installer again |
+| Windows | Deckloud tells you when a new version is out. Choose **Download installer** in the update card, in Settings, or in the tray menu, then run the installer again |
+| Linux | Deckloud updates itself |
 
-Windows and Linux do not update themselves yet.
+Windows does not install updates by itself yet.
 
 Still on Deckloud 0.8.5 for Mac? Its built-in updater downloads new versions but cannot install them. [Download the DMG](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/stable-macos-arm64-Deckloud.dmg) once, and later updates install normally.
 
