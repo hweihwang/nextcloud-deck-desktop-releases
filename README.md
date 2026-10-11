@@ -73,8 +73,13 @@ Nextcloud does not publish a desktop app for Deck. Deckloud adds one for Mac, Wi
 | Windows | [Download .zip](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/win-x64-Deckloud-Setup.zip) | Windows 11 x64. Windows on ARM runs this build through emulation. |
 | Linux x64 | [Download .tar.gz](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/linux-x64-Deckloud-Setup.tar.gz) | Tested on Ubuntu 24.04. Needs GTK 3, WebKitGTK 4.1, and a Secret Service keyring. |
 | Linux arm64 | [Download .tar.gz](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/linux-arm64-Deckloud-Setup.tar.gz) | Tested on Ubuntu 24.04. Needs GTK 3, WebKitGTK 4.1, and a Secret Service keyring. |
+| Windows, portable | [Download .zip](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/win-x64-Deckloud-portable.zip) | Windows 11 x64. The plain `Deckloud/` app folder for package managers. |
+| Linux x64, archive | [Download .tar.gz](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/linux-x64-Deckloud.tar.gz) | The plain `Deckloud/` app folder for package managers. Same requirements as above. |
+| Linux arm64, archive | [Download .tar.gz](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/linux-arm64-Deckloud.tar.gz) | The plain `Deckloud/` app folder for package managers. Same requirements as above. |
 
 Every release is also on the [Releases page](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases). You only need the files listed above. The `.tar.zst` and `update.json` files are used by the built-in updater.
+
+To check a download, compare it with `SHA256SUMS.txt` from the same release. On Linux, run `sha256sum -c --ignore-missing SHA256SUMS.txt` in the download folder. On a Mac, run `shasum -a 256 <file>`; on Windows, run `Get-FileHash <file> -Algorithm SHA256` in PowerShell, and compare the result with the line for that file.
 
 ### Install on Mac
 
