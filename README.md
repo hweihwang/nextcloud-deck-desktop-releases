@@ -148,7 +148,9 @@ These arrived in iPhone and iPad 1.3.12 and desktop 0.8.21.
 - **Link files** from Nextcloud Files to a card without moving them.
 - **Import and export boards.** Import a board from the official Deck JSON export. Export any board as Deck JSON or CSV.
 - **Shared boards**, with board presence and Nextcloud Teams when your server supports them.
-- **Several accounts.** Switch between Nextcloud servers or accounts.
+- **Several accounts.** Switch between Nextcloud servers or accounts. With Pro, Today can also list the overdue and due-today cards of every saved account.
+- **Shortcuts on iPhone and iPad.** Move Card in Deckloud moves a card to another section or board, and Open Card in Deckloud opens one, also from an NFC automation. Needs iOS 17 or later.
+- **Deck's formatting** in descriptions: underline, highlight, callouts, tables, and collapsible sections.
 - **Focus timer** for a timed session on a card.
 - **Organization licenses.** One yearly license gives everyone who uses Deckloud on your organization's Nextcloud Pro on every platform, with nothing to install on the server. [Deckloud for Organizations](https://deckloud.com/business/)
 - **20 board templates**, such as a sprint board, bug triage, a GTD weekly review, or a content calendar. Choose **Start from template** when you create a board. [Browse the templates](https://deckloud.com/nextcloud-deck-templates/) or suggest one in [deckloud-templates](https://github.com/hweihwang/deckloud-templates).
@@ -177,6 +179,7 @@ Your boards are never behind a paywall. Pro is a one-time purchase with no subsc
 | Active reminders | 1 | Unlimited |
 | Focus sessions | 1 | Unlimited |
 | Accounts | 2 | Unlimited |
+| Today across all saved accounts | No | Yes |
 | iPhone and iPad widgets | Small | Small, medium, large, and Lock Screen |
 
 Pro bought in the iPhone and iPad app also unlocks the desktop app with a one-time code. Restore it on new devices with your Apple account. If you only use the desktop app, buy Desktop Pro inside it instead. Desktop Pro covers the desktop app only.
