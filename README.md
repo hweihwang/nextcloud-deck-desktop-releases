@@ -5,19 +5,20 @@
 <h1 align="center">Deckloud</h1>
 
 <p align="center">
-  <strong>Your Nextcloud Deck boards on iPhone, iPad, Mac, Windows, and Linux.</strong><br>
+  <strong>Your Nextcloud Deck boards on iPhone, iPad, Android, Mac, Windows, and Linux.</strong><br>
   Open the boards you already have, keep working offline, and sync straight to your own Nextcloud server.
 </p>
 
 <p align="center">
   <a href="https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest"><img alt="Latest desktop release" src="https://img.shields.io/github/v/release/hweihwang/nextcloud-deck-desktop-releases?label=desktop&logo=github"></a>
   <a href="https://apps.apple.com/app/deckloud/id6756962555?pt=128286558&amp;ct=github-readme&amp;mt=8"><img alt="App Store version" src="https://img.shields.io/itunes/v/6756962555?label=App%20Store&logo=apple"></a>
-  <img alt="Platforms: iPhone, iPad, Mac, Windows, Linux" src="https://img.shields.io/badge/platforms-iPhone%20%7C%20iPad%20%7C%20Mac%20%7C%20Windows%20%7C%20Linux-informational">
+  <img alt="Platforms: iPhone, iPad, Android, Mac, Windows, Linux" src="https://img.shields.io/badge/platforms-iPhone%20%7C%20iPad%20%7C%20Android%20%7C%20Mac%20%7C%20Windows%20%7C%20Linux-informational">
   <img alt="More than 70 languages" src="https://img.shields.io/badge/languages-70%2B-informational">
 </p>
 
 <p align="center">
   <a href="https://apps.apple.com/app/deckloud/id6756962555?pt=128286558&amp;ct=github-readme&amp;mt=8"><img src="https://img.shields.io/badge/Download_on_the-App_Store-0D96F6?style=for-the-badge&logo=apple&logoColor=white" height="40" alt="Download on the App Store"></a>
+  <a href="https://play.google.com/store/apps/details?id=com.hweihwang.deck&amp;referrer=utm_source%3Dgithub.com%26utm_campaign%3Dgithub-readme"><img src="https://img.shields.io/badge/Get_it_on-Google_Play-01875F?style=for-the-badge&logo=googleplay&logoColor=white" height="40" alt="Get it on Google Play"></a>
 </p>
 
 <p align="center">
@@ -56,11 +57,11 @@
 
 Deckloud is an independent app for [Nextcloud Deck](https://apps.nextcloud.com/apps/deck), the kanban app on your Nextcloud server. Sign in with your Nextcloud account, and the boards you already have open as they are. Deckloud connects straight to your server, with no Deckloud server in between.
 
-Nextcloud does not publish a desktop app for Deck. Deckloud adds one for Mac, Windows, and Linux, next to its app for iPhone and iPad.
+Nextcloud does not publish a desktop app for Deck. Deckloud adds one for Mac, Windows, and Linux, next to its apps for iPhone, iPad, and Android.
 
 - **Open your existing boards.** Lists, cards, comments, attachments, and labels come from Deck on your server.
 - **Keep working offline.** Changes wait in a queue and sync when you are back online. You can see what is still waiting.
-- **Use one app on every device.** The same boards on iPhone, iPad, Mac, Windows, and Linux.
+- **Use one app on every device.** The same boards on iPhone, iPad, Android, Mac, Windows, and Linux.
 - **Start free.** Your boards are never behind a paywall. Pro is a one-time purchase with no subscription.
 
 ## Download
@@ -68,6 +69,7 @@ Nextcloud does not publish a desktop app for Deck. Deckloud adds one for Mac, Wi
 | Device | Download | Requirements |
 | --- | --- | --- |
 | iPhone and iPad | [App Store](https://apps.apple.com/app/deckloud/id6756962555?pt=128286558&ct=github-readme&mt=8) | iOS or iPadOS 16.4 or later |
+| Android | [Google Play](https://play.google.com/store/apps/details?id=com.hweihwang.deck&referrer=utm_source%3Dgithub.com%26utm_campaign%3Dgithub-readme) | Android 7.0 or later, on phones. No widgets. |
 | Mac | [Download .dmg](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/stable-macos-arm64-Deckloud.dmg) | macOS 14 or later on Apple Silicon. Intel Macs are not supported. |
 | Mac with Homebrew | `brew install --cask hweihwang/nextcloud-deck/deck-desktop` | macOS 14 or later on Apple Silicon |
 | Windows | [Download .zip](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/win-x64-Deckloud-Setup.zip) | Windows 11 x64. Windows on ARM runs this build through emulation. |
@@ -172,17 +174,17 @@ Your boards are never behind a paywall. Pro is a one-time purchase with no subsc
 | --- | --- | --- |
 | Boards, cards, comments, attachments, and labels | Yes | Yes |
 | Today, Gantt timeline, search, and offline sync | Yes | Yes |
-| Quick Capture and Share Sheet saves | 5 | Unlimited |
-| Smart Capture | Counts as one of the 5 captures, up to 5 cards | Up to 20 cards at a time |
+| Quick Capture and Share Sheet saves | 10 a month on each device | Unlimited |
+| Smart Capture | Counts as one capture, up to 5 cards | Up to 20 cards at a time |
 | Repeating cards | 1 | Up to 100 |
 | Team view | Your own cards and the team totals | Everyone's cards and the team's weekly report |
 | Active reminders | 1 | Unlimited |
-| Focus sessions | 1 | Unlimited |
+| Focus sessions | 3 a month on each device | Unlimited |
 | Accounts | 2 | Unlimited |
 | Today across all saved accounts | No | Yes |
 | iPhone and iPad widgets | Small | Small, medium, large, and Lock Screen |
 
-Pro bought in the iPhone and iPad app also unlocks the desktop app with a one-time code. Restore it on new devices with your Apple account. If you only use the desktop app, buy Desktop Pro inside it instead. Desktop Pro covers the desktop app only.
+Pro bought in the iPhone and iPad app also unlocks the desktop app with a one-time code. Restore it on new devices with your Apple account. Pro bought on Google Play unlocks Android and the desktop app. It does not unlock the iPhone and iPad app. If you only use the desktop app, buy Desktop Pro inside it instead. Desktop Pro covers the desktop app only.
 
 ## Privacy
 
@@ -191,11 +193,11 @@ With your own Nextcloud, Deckloud connects straight to your server. Deckloud doe
 | Data | Where it goes |
 | --- | --- |
 | Boards, cards, comments, attachments, labels, assignees, and due dates | Only between your device and your Nextcloud server |
-| Your Nextcloud app password | Your device's credential store: Keychain on Apple devices, Windows Credential Manager, or Secret Service on Linux |
+| Your Nextcloud app password | Your device's credential store: Keychain on Apple devices, Android Keystore, Windows Credential Manager, or Secret Service on Linux |
 | The offline copy of your boards | Your device. Signing out removes it together with the account's credential. |
 | Usage analytics and error diagnostics | PostHog, from release builds, without board content, credentials, full server URLs, or email addresses. Turn analytics off in Settings. |
 | Organization license lookup | api.deckloud.com receives a SHA-256 hash of your server address, at most once a day for a server without a license. For a licensed server, it also receives the server address, a seat hash, and the platform. |
-| Purchases | Apple and RevenueCat on iPhone and iPad. Polar for Desktop Pro. |
+| Purchases | Apple and RevenueCat on iPhone and iPad. Google Play and RevenueCat on Android. Polar for Desktop Pro. |
 
 If you connect to a server on a private network over `http://`, that connection is not encrypted in transit. Use HTTPS for encrypted transport.
 
@@ -208,6 +210,7 @@ Read the details in [Security and privacy](https://deckloud.com/security/) and t
 | Device | How to update |
 | --- | --- |
 | iPhone and iPad | Through the App Store |
+| Android | Through Google Play |
 | Mac | Deckloud updates itself |
 | Windows | Deckloud tells you when a new version is out. Choose **Download installer** in the update card, in Settings, or in the tray menu, then run the installer again |
 | Linux | Deckloud updates itself |
@@ -253,5 +256,5 @@ This repository holds the desktop downloads, the issue tracker, and the communit
 ---
 
 <p align="center">
-  <sub>Deckloud is an independent project and is not affiliated with Nextcloud GmbH. Nextcloud is a trademark of Nextcloud GmbH and is referenced only to describe compatibility. App Store is a trademark of Apple Inc.</sub>
+  <sub>Deckloud is an independent project and is not affiliated with Nextcloud GmbH. Nextcloud is a trademark of Nextcloud GmbH and is referenced only to describe compatibility. App Store is a trademark of Apple Inc. Google Play is a trademark of Google LLC.</sub>
 </p>
