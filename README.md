@@ -62,7 +62,7 @@ Nextcloud does not publish a desktop app for Deck. Deckloud adds one for Mac, Wi
 - **Open your existing boards.** Lists, cards, comments, attachments, and labels come from Deck on your server.
 - **Keep working offline.** Changes wait in a queue and sync when you are back online. You can see what is still waiting.
 - **Use one app on every device.** The same boards on iPhone, iPad, Android, Mac, Windows, and Linux.
-- **Start free.** Your boards are never behind a paywall. Pro is a one-time purchase with no subscription.
+- **Start free.** Your boards are never behind a paywall. Pro is optional, as a one-time purchase or a subscription.
 
 ## Download
 
@@ -168,7 +168,7 @@ No server? Choose **Use Deckloud Cloud** on the sign-in screen for a free worksp
 
 ## Free and Pro
 
-Your boards are never behind a paywall. Pro is a one-time purchase with no subscription.
+Your boards are never behind a paywall. Pro is optional: a one-time purchase or a yearly or monthly subscription in the iPhone, iPad, and Android apps, and a one-time purchase in the desktop app.
 
 | | Free | Pro |
 | --- | --- | --- |
