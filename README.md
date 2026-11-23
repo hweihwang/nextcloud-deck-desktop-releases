@@ -129,7 +129,7 @@ Pro removes the free limits. It adds reminders, up to 100 repeating cards, Smart
 - Restore Pro on a new device with the same Apple or Google account.
 - Prices are shown in US dollars and euros. In other countries, the App Store and Google Play show their local price.
 - Phone and tablet installations from before version 1.4.0 keep their earlier free allowances.
-- The New card widget on iPhone and iPad is free. Widgets that show cards need Pro. Android has no widgets.
+- The New card widget on iPhone and iPad is free. Widgets that show due cards need Pro; installations from before 1.4.0 keep the small due-card widget for free. Android has no widgets.
 
 ## Features
 
@@ -179,7 +179,7 @@ These arrived in iPhone and iPad 1.3.12 and desktop 0.8.21.
 - **Deck's formatting** in descriptions: underline, highlight, callouts, tables, and collapsible sections.
 - **Focus timer** for a timed session on a card.
 - **Organization licenses.** One yearly license gives everyone who uses Deckloud on your organization's Nextcloud Pro on every platform, with nothing to install on the server. [Deckloud for Organizations](https://deckloud.com/business/)
-- **20 board templates**, such as a sprint board, bug triage, a GTD weekly review, or a content calendar. Choose **Start from template** when you create a board. [Browse the templates](https://deckloud.com/nextcloud-deck-templates/) or suggest one in [deckloud-templates](https://github.com/hweihwang/deckloud-templates).
+- **21 board templates**, such as a sprint board, bug triage, a GTD weekly review, or a content calendar. Choose **Start from template** when you create a board. [Browse the templates](https://deckloud.com/nextcloud-deck-templates/) or suggest one in [deckloud-templates](https://github.com/hweihwang/deckloud-templates).
 - **More than 70 languages**, including right-to-left layouts. The app follows your device language, or you can pick one in the app.
 
 ## Watch the film
@@ -222,10 +222,8 @@ Read the details in [Security and privacy](https://deckloud.com/security/) and t
 | iPhone and iPad | Through the App Store |
 | Android | Through Google Play |
 | Mac | Deckloud updates itself |
-| Windows | Deckloud tells you when a new version is out. Choose **Download installer** in the update card, in Settings, or in the tray menu, then run the installer again |
-| Linux | Deckloud updates itself |
-
-Windows does not install updates by itself yet.
+| Windows | Deckloud updates itself from 0.9.40 on, when you installed it with the Windows installer. On 0.9.39 or older, install the latest version once with the installer |
+| Linux | Deckloud updates itself when you installed it with the Linux installer. A copy unpacked elsewhere tells you about new versions and links to the installer. The Flatpak updates with `flatpak update` |
 
 Still on Deckloud 0.8.5 for Mac? Its built-in updater downloads new versions but cannot install them. [Download the DMG](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/stable-macos-arm64-Deckloud.dmg) once, and later updates install normally.
 
@@ -259,7 +257,7 @@ No GitHub account? Email [support@deckloud.com](mailto:support@deckloud.com) wit
 - **Attach a support file.** **Settings → Diagnostics** in the app exports one with your app version and sync details. It contains no passwords or board content.
 - **Report security problems privately.** Follow the [security policy](SECURITY.md) and never open a public issue for them.
 
-Never post passwords, app tokens, or private board content in an issue. If your case needs private details, email them instead.
+Never post passwords, app tokens, or private board content in an issue. If your case needs private details such as a server address, email them instead. Never send a password or app token, not even by email.
 
 This repository holds the desktop downloads, the issue tracker, and the community translations. Deckloud is closed source, so the app's source code is not public.
 
