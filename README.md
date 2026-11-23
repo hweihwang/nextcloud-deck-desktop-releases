@@ -38,7 +38,8 @@
 </p>
 
 <p align="center">
-  <a href="#what-deckloud-does">About</a> ·
+  <a href="#deckloud-in-short">About</a> ·
+  <a href="#free-pro-and-prices">Prices</a> ·
   <a href="#features">Features</a> ·
   <a href="#privacy">Privacy</a> ·
   <a href="#updating">Updating</a> ·
@@ -47,22 +48,23 @@
   <a href="https://deckloud.com">deckloud.com</a>
 </p>
 
-## Watch the film
+## Deckloud in short
 
-<p align="center">
-  <a href="https://deckloud.com/nextcloud-deck-app-video/"><img src=".github/assets/film-poster.jpg" width="880" alt="Deckloud product film: boards, the Today list, the Gantt timeline, and the desktop app. Opens the film page on deckloud.com"></a>
-</p>
-
-## What Deckloud does
-
-Deckloud is an independent app for [Nextcloud Deck](https://apps.nextcloud.com/apps/deck), the kanban app on your Nextcloud server. Sign in with your Nextcloud account, and the boards you already have open as they are. Deckloud connects straight to your server, with no Deckloud server in between.
+| | |
+| --- | --- |
+| **What it is** | An independent app for [Nextcloud Deck](https://apps.nextcloud.com/apps/deck), the kanban app on a Nextcloud server. It opens the boards you already have. |
+| **Platforms** | [iPhone and iPad](https://apps.apple.com/app/deckloud/id6756962555?pt=128286558&ct=github-readme&mt=8) (one app on the App Store), [Android](https://play.google.com/store/apps/details?id=com.hweihwang.deck&referrer=utm_source%3Dgithub.com%26utm_campaign%3Dgithub-readme) (Google Play), and a desktop app for [Mac](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/stable-macos-arm64-Deckloud.dmg), [Windows](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/win-x64-Deckloud-Setup.zip) and [Linux](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/linux-x64-Deckloud-Setup.tar.gz). |
+| **Price** | Free to use. Pro is $39 / 39 € once, or $29 / 29 € a year, or $9 / 9 € a month on the App Store or Google Play. Desktop Pro is $19 once. Details in [Free, Pro and prices](#free-pro-and-prices). |
+| **Source code** | Closed source. The app's source code is not public. This repository holds the desktop downloads, the issue tracker and the community translations. |
+| **Who makes it** | Hoang Pham, an independent developer. Deckloud is not affiliated with or endorsed by Nextcloud GmbH. |
+| **What it needs** | A Nextcloud server with the Deck app enabled, self-hosted or from a provider. Deck 1.6 or later gives full editing. No server? The optional free Deckloud Cloud. |
+| **Where your boards go** | With your own Nextcloud, straight between your device and your server, with no Deckloud server in between. |
+| **Offline** | Boards you opened once while online keep working offline. Changes wait in a queue and sync when you are back online. |
+| **Languages** | More than 70, including right-to-left layouts. |
+| **Other Deck apps** | The open-source [Nextcloud Deck app for Android](https://github.com/stefan-niedermann/nextcloud-deck) (F-Droid and Google Play) and Next Deck for iPhone and iPad. [How they compare](https://deckloud.com/compare/nextcloud-deck-mobile-app-options/) |
+| **Links** | [deckloud.com](https://deckloud.com) · [Release notes](https://deckloud.com/changelog/) · [support@deckloud.com](mailto:support@deckloud.com) |
 
 Nextcloud does not publish a desktop app for Deck. Deckloud adds one for Mac, Windows, and Linux, next to its apps for iPhone, iPad, and Android.
-
-- **Open your existing boards.** Lists, cards, comments, attachments, and labels come from Deck on your server.
-- **Keep working offline.** Changes wait in a queue and sync when you are back online. You can see what is still waiting.
-- **Use one app on every device.** The same boards on iPhone, iPad, Android, Mac, Windows, and Linux.
-- **Start free.** Your boards are never behind a paywall. Pro is optional, as a one-time purchase or a subscription.
 
 ## Download
 
@@ -106,6 +108,28 @@ tar -xzf linux-x64-Deckloud-Setup.tar.gz
 Then run the installer from the extracted folder. It installs Deckloud for your user account and starts it.
 
 Deckloud stores your Nextcloud credentials and Pro licence in an unlocked Secret Service provider such as GNOME Keyring. Without one, it cannot save your sign-in.
+
+## Free, Pro and prices
+
+Your boards are never behind a paywall. Boards, cards, comments, attachments, labels, search, offline sync, Today, the Gantt timeline, board import and export, and the desktop app are free.
+
+| Plan | Price | Where | What you get |
+| --- | --- | --- | --- |
+| Free | $0 | Every app | Everything above. A new phone or tablet installation has one account, and each device gets 3 Quick Captures and 1 Focus session a month. The desktop app gets 10 Quick Captures and 3 Focus sessions a month, one active reminder, one repeating card, and two saved accounts. |
+| Pro for iPhone and iPad | $39 / 39 € once, or $29 / 29 € a year, or $9 / 9 € a month | In the app, through the App Store | Pro on iPhone and iPad, and in the desktop app with a one-time code |
+| Pro for Android | $39 / 39 € once, or $29 / 29 € a year, or $9 / 9 € a month | In the app, through Google Play | Pro on Android, and in the desktop app with a one-time code |
+| Desktop Pro | $19 once | In the desktop app | Pro in the desktop app on Mac, Windows, and Linux only |
+| [Organizations](https://deckloud.com/business/) | €18 per user a year for the first 250 users and €12 per user above 250, for 5 to 1,000 users, excluding VAT | deckloud.com, paid through Polar | Pro for everyone who uses Deckloud on the organization's Nextcloud server, on all six platforms. Nothing is installed on the server. |
+| [Hosting providers](https://deckloud.com/business/providers/) | €50 a month plus €8 per bound Nextcloud server, excluding VAT | deckloud.com | For providers that offer Nextcloud to their own customers |
+
+Pro removes the free limits. It adds reminders, up to 100 repeating cards, Smart Capture of up to 20 cards at a time, the full Team view with the team's weekly report, Today across all saved accounts, and medium, large, and Lock Screen widgets on iPhone and iPad.
+
+- Pro bought on the App Store does not unlock the Android app, and Pro bought on Google Play does not unlock the iPhone and iPad app. Both activate the desktop app.
+- A subscription is optional. The one-time purchase stays available, and you cancel a subscription in your Apple or Google account.
+- Restore Pro on a new device with the same Apple or Google account.
+- Prices are shown in US dollars and euros. In other countries, the App Store and Google Play show their local price.
+- Phone and tablet installations from before version 1.4.0 keep their earlier free allowances.
+- The New card widget on iPhone and iPad is free. Widgets that show cards need Pro. Android has no widgets.
 
 ## Features
 
@@ -158,6 +182,12 @@ These arrived in iPhone and iPad 1.3.12 and desktop 0.8.21.
 - **20 board templates**, such as a sprint board, bug triage, a GTD weekly review, or a content calendar. Choose **Start from template** when you create a board. [Browse the templates](https://deckloud.com/nextcloud-deck-templates/) or suggest one in [deckloud-templates](https://github.com/hweihwang/deckloud-templates).
 - **More than 70 languages**, including right-to-left layouts. The app follows your device language, or you can pick one in the app.
 
+## Watch the film
+
+<p align="center">
+  <a href="https://deckloud.com/nextcloud-deck-app-video/"><img src=".github/assets/film-poster.jpg" width="880" alt="Deckloud product film: boards, the Today list, the Gantt timeline, and the desktop app. Opens the film page on deckloud.com"></a>
+</p>
+
 ## Requirements
 
 - **A Nextcloud server with the Deck app enabled**, self-hosted or from a provider, on any maintained Nextcloud release. Deck 1.6 or later gives full editing.
@@ -165,26 +195,6 @@ These arrived in iPhone and iPad 1.3.12 and desktop 0.8.21.
 - **Device requirements** are in [Download](#download).
 
 No server? Choose **Use Deckloud Cloud** on the sign-in screen for a free workspace hosted by Deckloud. It needs no email or password and holds 250 MB on up to 3 devices. It is not end-to-end encrypted and does not include Pro.
-
-## Free and Pro
-
-Your boards are never behind a paywall. Pro is optional: a one-time purchase or a yearly or monthly subscription in the iPhone, iPad, and Android apps, and a one-time purchase in the desktop app.
-
-| | Free | Pro |
-| --- | --- | --- |
-| Boards, cards, comments, attachments, and labels | Yes | Yes |
-| Today, Gantt timeline, search, and offline sync | Yes | Yes |
-| Quick Capture and Share Sheet saves | 10 a month on each device | Unlimited |
-| Smart Capture | Counts as one capture, up to 5 cards | Up to 20 cards at a time |
-| Repeating cards | 1 | Up to 100 |
-| Team view | Your own cards and the team totals | Everyone's cards and the team's weekly report |
-| Active reminders | 1 | Unlimited |
-| Focus sessions | 3 a month on each device | Unlimited |
-| Accounts | 2 | Unlimited |
-| Today across all saved accounts | No | Yes |
-| iPhone and iPad widgets | Small | Small, medium, large, and Lock Screen |
-
-Pro bought in the iPhone and iPad app also unlocks the desktop app with a one-time code. Restore it on new devices with your Apple account. Pro bought on Google Play unlocks Android and the desktop app. It does not unlock the iPhone and iPad app. If you only use the desktop app, buy Desktop Pro inside it instead. Desktop Pro covers the desktop app only.
 
 ## Privacy
 
@@ -251,7 +261,7 @@ No GitHub account? Email [support@deckloud.com](mailto:support@deckloud.com) wit
 
 Never post passwords, app tokens, or private board content in an issue. If your case needs private details, email them instead.
 
-This repository holds the desktop downloads, the issue tracker, and the community translations. The app's source code is not in this repository.
+This repository holds the desktop downloads, the issue tracker, and the community translations. Deckloud is closed source, so the app's source code is not public.
 
 ---
 
