@@ -71,7 +71,7 @@ Nextcloud does not publish a desktop app for Deck. Deckloud adds one for Mac, Wi
 | Device | Download | Requirements |
 | --- | --- | --- |
 | iPhone and iPad | [App Store](https://apps.apple.com/app/deckloud/id6756962555?pt=128286558&ct=github-readme&mt=8) | iOS or iPadOS 16.4 or later |
-| Android | [Google Play](https://play.google.com/store/apps/details?id=com.hweihwang.deck&referrer=utm_source%3Dgithub.com%26utm_campaign%3Dgithub-readme) | Android 7.0 or later, on phones. No widgets. |
+| Android | [Google Play](https://play.google.com/store/apps/details?id=com.hweihwang.deck&referrer=utm_source%3Dgithub.com%26utm_campaign%3Dgithub-readme) | Android 7.0 or later, on phones. Home Screen widgets from 1.4.2. |
 | Mac | [Download .dmg](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/stable-macos-arm64-Deckloud.dmg) | macOS 14 or later on Apple Silicon. Intel Macs are not supported. |
 | Mac with Homebrew | `brew install --cask hweihwang/nextcloud-deck/deck-desktop` | macOS 14 or later on Apple Silicon |
 | Windows | [Download .zip](https://github.com/hweihwang/nextcloud-deck-desktop-releases/releases/latest/download/win-x64-Deckloud-Setup.zip) | Windows 11 x64. Windows on ARM runs this build through emulation. |
@@ -129,7 +129,7 @@ Pro removes the free limits. It adds reminders, up to 100 repeating cards, Smart
 - Restore Pro on a new device with the same Apple or Google account.
 - Prices are shown in US dollars and euros. In other countries, the App Store and Google Play show their local price.
 - Phone and tablet installations from before version 1.4.0 keep their earlier free allowances.
-- The New card widget on iPhone and iPad is free. Widgets that show due cards need Pro; installations from before 1.4.0 keep the small due-card widget for free. Android has no widgets.
+- The New card widget on iPhone and iPad is free. Widgets that show due cards need Pro; installations from before 1.4.0 keep the small due-card widget for free. On Android, from 1.4.2, the New card widget and the due counts of the Deckloud widget are free, and its list of due cards needs Pro.
 
 ## Features
 
